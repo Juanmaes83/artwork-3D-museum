@@ -324,44 +324,17 @@ Do not assume:
 
 # 11. PROJECT-SPECIFIC REENTRY BLOCK
 
-When this master template is copied into a project, fill in this section and keep the universal doctrine above intact unless an ecosystem-wide decision formally changes it.
-
 ```text
-PROJECT NAME:
-
-PROJECT PURPOSE / DNA:
-
-MOTHER / BASE RUNTIME:
-
-CURRENT PRIORITY:
-
-CURRENT ACTIVE PHASE:
-
-BRAIN — local authority/capabilities:
-
-SKELETON — local authority/capabilities:
-
-SKIN — current status:
-
-CURRENT SKIN CLASSIFICATION:
-[ ] final-approved
-[ ] candidate-final
-[ ] provisional
-[ ] blockout/proxy
-
-LOCAL CANONICAL START_HERE:
-
-LOCAL ACTIVE ROADMAP:
-
-LOCAL ACTIVE EXECUTION LOG:
-
-FROZEN / VALIDATED DONORS:
-
-KNOWN SKIN-COUPLING DEBT:
-
-DO NOT REOPEN / DO NOT TOUCH:
-
-NEXT VALIDATION GATE:
+PROJECT NAME: artwork-3D-museum / Virtual Museum
+PROJECT PURPOSE / DNA: immersive 3D gallery for exhibiting drawings/illustrations using React Three Fiber and web UI.
+MOTHER / BASE RUNTIME: this repository is a museum reference implementation; future Museum mother status is not assumed.
+CURRENT PRIORITY: preserve gallery/content interaction and useful R3F patterns; no broad final-skin investment before museum-family architecture is selected.
+CURRENT ACTIVE PHASE: dormant/reference unless a newer local authority says otherwise.
+CURRENT SKIN CLASSIFICATION: reference/provisional; existing visual assets are not semantic identity.
+LOCAL CANONICAL START_HERE: README.md
+LOCAL ACTIVE ROADMAP: VERIFY ON REENTRY; none is assumed from the current README.
+DO NOT REOPEN / DO NOT TOUCH: preserve explicit asset attribution/provenance (for example the documented CC-BY bench) and do not copy assets without their license record.
+NEXT VALIDATION GATE: museum-family reentry audit before choosing mother/donor responsibilities.
 ```
 
 Keep this block concise. It is a reentry snapshot, not a second roadmap.
